@@ -4,6 +4,9 @@ body{
   margin: 0;
   font-family: Open Sans, Arial, Helvetica, sans-serif
 }
+a{
+  text-decoration: none;
+}
 *{
   box-sizing: border-box;
 }

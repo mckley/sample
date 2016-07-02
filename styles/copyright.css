@@ -1,0 +1,14 @@
+.copyright{
+  background-color: black;
+  color: #3b3d48;
+  font-size: 14px;
+}
+.copyright__content{
+  min-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright__email{
+  color: white;
+}

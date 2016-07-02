@@ -1,0 +1,25 @@
+.icon{
+  width: 80px;
+  height: 80px;
+  background-color: #cbd9d9;
+  border-radius: 15px;
+  display: flex;
+}
+.icon--blue{
+  background-image: linear-gradient(to top, #20afea 0%, #36ccf9 100%);
+}
+.icon--green{
+  background-image: linear-gradient(to top, #02b84f 0%, #30f382 100%);
+}
+.icon--orange{
+  background-image: linear-gradient(to top, #fa8b2a 0%, #fcbf34 100%);
+}
+.icon--gray{
+  background-image: linear-gradient(to top, #b5b5b5 0%, #e9e9e9 100%);
+}
+.icon--violet{
+  background-image: linear-gradient(to top, #5457ca 0%, #6e82ff 100%);
+}
+.icon__image{
+  margin: auto;
+}

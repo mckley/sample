@@ -2,9 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 300px;
   min-height: 65px;
-  padding: 14px;
+  padding: 14px 0;
   background-color: white;
   border-radius: 5px;
   font-size: 18px;
