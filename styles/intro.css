@@ -1,0 +1,36 @@
+.intro{
+  text-align: center;
+  background-color: #051425;
+  background-image: linear-gradient(to top, white 0%, white 37%, #ebf6f8 100%);
+}
+.intro__title{
+  color: #323e41;
+  font-size: 48px;
+  font-weight: 300;
+}
+.intro__subtitle{
+  color: #898e8f;
+  font-size: 32px;
+  font-weight: 300;
+}
+.intro__button{
+  display: flex;
+  justify-content: center;
+}
+.intro__footer{
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  border-top: 1px solid rgba(0, 100, 100, 0.1);
+  margin-top: 50px;
+}
+.intro__footer-title{
+  font-size: 16px;
+  line-height: 50px;
+}
+.intro__footer-subtitle{
+  font-size: 16px;
+  color: #00a2ed;
+  font-weight: 800;
+}
