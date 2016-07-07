@@ -1,0 +1,33 @@
+.section__footer{
+  margin-top: 65px;
+  padding-top: 60px;
+  border-top: 1px solid rgba(0, 100, 100, 0.1);
+  text-align: left;
+}
+.features_icon{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 26px;
+  margin-right: 226px;
+}
+.features_title{
+  display: inline-block;
+  padding: 0 25px;
+  margin: 30px 0 20px 0;
+  width: 310px;
+  color: #323e41;
+  font-size: 18px;
+}
+.features_item{
+  display: inline-block;
+  padding: 0 25px;
+  max-width: 310px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.feature__item--subtext{
+  padding: 0 25px;
+  margin-top: 15px;
+  color: #00a2ed;
+}

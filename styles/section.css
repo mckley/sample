@@ -1,5 +1,5 @@
 .section--separated{
-  padding: 75px 0;
+  padding: 75px;
 }
 .section--light{
   background-color: #f3f7f9;
@@ -7,5 +7,9 @@
 .section__content{
   max-width: 980px;
   padding: 0 20px;
+  margin: 0 auto;
+}
+.section_manually{
+  max-width: 980px;
   margin: 0 auto;
 }

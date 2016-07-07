@@ -1,0 +1,12 @@
+.mark__new{
+  display:inline-block;
+  text-align: center;
+  width: 40px;
+  height: 16.5px;
+  background-color: #f64c3b;
+  border-radius: 3px;
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  }
