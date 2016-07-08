@@ -1,21 +1,21 @@
-.manually_icon{
+.manually__icon{
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.manually_icon_discount{
+.manually__icon_discount{
  display:  flex;
  justify-content: flex-end;
   
 }
-.circle_icon_discount{
+.circle__icon_discount{
   position: absolute;
   width: 116px;
   height: 116px;
   border: 3px solid #1abc9c;
 	border-radius: 90px;
 }
-.icon_discount{
+.icon__discount{
   position: absolute;
   margin: 2.1px 0 0 2.1px;
   width: 106px;
@@ -24,10 +24,10 @@
   background-image: linear-gradient(to top, #20afea 0%, #36ccf9 100%);
   border-radius: 90px;
 }
-.discount_text{
+.discount__text{
   text-align: center;
 }
-.buy_a{
+.buy__a{
   margin-top: 15px;
   opacity: 0.5;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
@@ -51,7 +51,7 @@
   font-weight: 900;
   line-height: 24px;
 }
-.manually_title{
+.manually__title{
   text-align: center;
   margin-bottom: 30px; 
   height: 31px;
@@ -59,7 +59,7 @@
   font-size: 30px;
   font-weight: 300;
 }
-.manually_text{
+.manually__text{
   text-align: center;
   margin-left: 65px;
   width: 820px;
@@ -82,20 +82,20 @@
   padding: 21.5px;
   
 }
-.icon_text{
+.icon__text{
   width: 20px;
   height: 20px;
   background-color: #046df6;
   display: flex;
   justify-content: center;
 }
-.ineed_aneight{
+.ineed__aneight{
   margin-top: 8px;
 }
-.day_of{
+.day__of{
   margin-top: 8px;
 }
 
-.the_week{
+.the__week{
   margin-top: 8px;
 }
