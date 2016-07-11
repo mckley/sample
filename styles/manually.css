@@ -3,54 +3,6 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-.manually__icon_discount{
- display:  flex;
- justify-content: flex-end;
-  
-}
-.circle__icon_discount{
-  position: absolute;
-  width: 116px;
-  height: 116px;
-  border: 3px solid #1abc9c;
-	border-radius: 90px;
-}
-.icon__discount{
-  position: absolute;
-  margin: 2.1px 0 0 2.1px;
-  width: 106px;
-  height: 106px;
-  background-color: #333;
-  background-image: linear-gradient(to top, #20afea 0%, #36ccf9 100%);
-  border-radius: 90px;
-}
-.discount__text{
-  text-align: center;
-}
-.buy__a{
-  margin-top: 15px;
-  opacity: 0.5;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
-  color: black;
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 24px;
-}
-.save{
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
-  color: white;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 24px;
-}
-.bundle{
-  opacity: 0.5;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
-  color: black;
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 24px;
-}
 .manually__title{
   text-align: center;
   margin-bottom: 30px; 
@@ -67,35 +19,4 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-}
-.preview{
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
-}
-.shape{
-  text-align: center;
-  width: 250px;
-  height: 380px;
-  border: 1px solid #046df6;
-  margin-right: 40px;
-  padding: 21.5px;
-  
-}
-.icon__text{
-  width: 20px;
-  height: 20px;
-  background-color: #046df6;
-  display: flex;
-  justify-content: center;
-}
-.ineed__aneight{
-  margin-top: 8px;
-}
-.day__of{
-  margin-top: 8px;
-}
-
-.the__week{
-  margin-top: 8px;
 }

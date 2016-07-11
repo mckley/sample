@@ -1,0 +1,22 @@
+.preview{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.preview__rectangle{
+  text-align: center;
+  width: 250px;
+  height: 380px;
+  border: 1px solid #046df6;
+  margin-right: 40px;
+  padding: 21.5px;
+  line-height: 50px;
+  
+}
+.preview__text-icon{
+  width: 20px;
+  height: 20px;
+  background-color: #046df6;
+  display: flex;
+  justify-content: center;
+}
