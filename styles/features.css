@@ -30,3 +30,18 @@
   color: #00a2ed;
   line-height: 32px;
 }
+.features--centred{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+  color: #777b7c;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 70px;
+}
+.features--centred-col{
+  width: 30%
+}

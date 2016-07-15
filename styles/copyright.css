@@ -12,3 +12,12 @@
 .copyright__email{
   color: white;
 }
+.copyright__left{
+  display: flex
+}
+.copyright__icon{
+  margin-left: 20px;
+}
+.copyright__img{
+  margin-right: 15px;
+}

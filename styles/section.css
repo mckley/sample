@@ -4,16 +4,13 @@
 .section--light{
   background-color: #f3f7f9;
 }
+.section--dark{
+  background-color: #333; 
+}
 .section__content{
-  max-width: 980px;
-  padding: 0 20px;
+  max-width: 950px;
   margin: 0 auto;
 }
-.section_manually{
-  max-width: 980px;
-  margin: 0 auto;
-}
-
 .section__footer{
   margin-top: 65px;
   padding-top: 60px;

@@ -17,11 +17,19 @@
 .button--blue{
   background-image: linear-gradient(to top, #0f92cf 0%, #13acf3 100%);
 }
+.button__crossed{
+  display: flex;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
 .button__price{
   text-shadow: 0 0 1px #de3a2c;
 }
 .button__column{
     padding: 10px 15px;
+}
+.button__column--big{
+    padding: 0 15px;
 }
 .button__column:not(:last-child){
   border-right: 1px solid rgba(0, 0, 0, .2);

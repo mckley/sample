@@ -1,0 +1,19 @@
+.outro__hats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outro__hat-icon{
+  padding: 0 60px;
+}
+.section__title{
+  display: flex;
+  justify-content:space-around;
+  align-items: end;
+  margin-top: 70px;
+}
+.outro__title{
+  color: #333;
+  font-size: 30px;
+  font-weight: 300;
+}

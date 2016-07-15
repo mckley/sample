@@ -1,5 +1,4 @@
-
-.expample__icon{
+.example__icon{
   display: flex;
   justify-content: center;
 }
@@ -27,7 +26,6 @@
   line-height: 30px;
   margin-top: 25px;
 }
-.example__link::after{
-  content: '>';
-  margin-left: 15px;
+.example__link-icon{
+  margin-left: 10px;
 }
