@@ -6,6 +6,7 @@ body{
 }
 a{
   text-decoration: none;
+  color: #00a2ed;
 }
 *{
   box-sizing: border-box;

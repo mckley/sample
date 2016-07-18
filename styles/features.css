@@ -26,9 +26,14 @@
   font-weight: 500;
 }
 .feature__item--subtext{
+  display: inline-block;
   margin-top: 20px;
   color: #00a2ed;
   line-height: 32px;
+  transition: 0.4s;
+}
+.feature__item--subtext:hover{
+  opacity: 0.8;
 }
 .features--centred{
   display: flex;

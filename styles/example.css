@@ -1,3 +1,6 @@
+.example{
+  text-align: center;
+}
 .example__icon{
   display: flex;
   justify-content: center;
@@ -18,13 +21,16 @@
   margin-top: 30px;
 }
 .example__link{
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   color: #00a2ed;
   font-size: 16px;
   font-weight: 900;
   line-height: 30px;
   margin-top: 25px;
+  transition: 0.4s;
+}
+.example__link:hover{
+  opacity: 0.8;
 }
 .example__link-icon{
   margin-left: 10px;

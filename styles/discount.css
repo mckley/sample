@@ -1,7 +1,10 @@
 .discount{
  display:  flex;
  justify-content: flex-end;
-  
+  transition: 0.4s;
+}
+.discount:hover{
+  opacity: 0.8;
 }
 .discount__cirlce{
   position: absolute;

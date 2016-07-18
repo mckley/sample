@@ -11,6 +11,10 @@
 }
 .copyright__email{
   color: white;
+  transition: 0.4s;
+}
+.copyright__email:hover{
+  opacity: 0.8;
 }
 .copyright__left{
   display: flex

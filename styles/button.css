@@ -10,6 +10,10 @@
   font-weight: 500;
   line-height: 20px;
   color: white;
+  transition: 0.4s;
+}
+.button:hover{
+  opacity: 0.8;
 }
 .button--red{
   background-image: linear-gradient(to top, #dc3929 0%, #f15444 100%);

@@ -31,7 +31,12 @@
   line-height: 50px;
 }
 .intro__footer-subtitle{
+  display: inline-block;
   font-size: 16px;
   color: #00a2ed;
   font-weight: 800;
+  transition: 0.4s;
+}
+.intro__footer-subtitle:hover{
+  opacity: 0.8;
 }
