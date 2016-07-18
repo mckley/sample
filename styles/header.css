@@ -14,4 +14,8 @@
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 0.8s;
+}
+.header__link:hover{
+  opacity: 0.4;
 }
