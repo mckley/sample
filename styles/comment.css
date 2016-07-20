@@ -20,6 +20,12 @@
   font-weight: 400;
   line-height: 28px;
 }
+@media (max-width: 1023px){
+  .comment__author{
+    width: 100%;
+    min-height: auto;
+  }
+}
 .comment__author-preview{
   border: 3px;
 	border-radius: 90px;
@@ -32,10 +38,32 @@
   line-height: 30px;
   margin: 25px 0 90px 0;
 }
+@media (max-width: 1023px){
+  .comment__author-name{
+    margin-bottom: 30px;
+    
+  }
+}
 .comment_clients{
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e8e8e9;
   padding: 30px 0 30px 0;
+}
+@media (max-width: 1023px){
+  .comment_clients{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1023px){
+  .comment__clients-icon{
+    margin: 5px 0;
+  }
+}
+@media (max-width: 1023px){
+  .comment__col{
+    width: 100%;
+  }
 }

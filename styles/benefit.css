@@ -3,8 +3,20 @@
   align-items: flex-start;
   font-size: 18px;
 }
+@media (max-width: 1023px){
+  .benefit{
+    flex-direction: column;
+  }
+}
+@media (max-width: 1023px){
+  .benefit__info{
+    margin-bottom: 40px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 .benefit__info:first-child{
-  margin-right: 100px;
+  margin-right: 0;
 }
 .benefit__info:last-child{
   margin-left: 100px;
@@ -36,4 +48,9 @@
 .benefit__link::after{
   content: '>';
   margin-left: 15px;
+}
+@media (max-width: 1023px){
+  .benefit__preview{
+    transform: translate(5%,-5%)
+  }
 }

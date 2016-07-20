@@ -3,6 +3,11 @@
   justify-content: center;
   margin-top: 60px;
 }
+@media (max-width: 1023px){
+  .preview{
+    flex-wrap: wrap;
+  }
+}
 .preview__rectangle{
   text-align: center;
   width: 250px;
@@ -11,7 +16,11 @@
   margin-right: 40px;
   padding: 21.5px;
   line-height: 50px;
-  
+}
+@media (max-width: 1023px){
+  .preview__rectangle{
+    margin-bottom: 40px;
+  }
 }
 .preview__text-icon{
   width: 20px;

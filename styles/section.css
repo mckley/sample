@@ -1,5 +1,8 @@
+.section{
+  padding: 0 20px;
+}
 .section--separated{
-  padding: 75px;
+  padding: 75px 20px;
 }
 .section--light{
   background-color: #f3f7f9;
@@ -15,5 +18,9 @@
   margin-top: 65px;
   padding-top: 60px;
   border-top: 1px solid rgba(0, 100, 100, 0.1);
-  display: flex;
+}
+@media (max-width: 1023px){
+  .section__footer{
+    flex-wrap: wrap;
+  }
 }

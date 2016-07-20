@@ -3,8 +3,19 @@
   justify-content: center;
   margin-top: 60px;
 }
+@media (max-width: 1023px){
+  .container{
+    flex-wrap: wrap-reverse;
+  }
+}
 .container__item--one{
   margin: 30px 0 10px 20px;
+}
+@media (max-width: 1023px){
+  .container__item--one{
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }
 .container__icon{
   display: flex;
@@ -20,17 +31,23 @@
   font-weight: 900;
   line-height: 30px;
   margin-bottom: 20px;
-
 }
 .container__icon--one{
   background-image: linear-gradient(to top, #20afea 0%, #36ccf9 100%);
 }
 .container__icon--two{
+  margin-left: auto; 
   background-image: linear-gradient(to top, #fa8b2a 0%, #fcbf34 100%);
 }
 .container__item--two{
   text-align: right;
   margin: 130px 20px 10px 0;
+}
+@media (max-width: 1023px){
+  .container__item--two{
+    margin: 0;
+    margin-top: 20px;
+  }
 }
 .container__icon{
   display: flex;

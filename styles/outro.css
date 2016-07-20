@@ -12,6 +12,13 @@
   align-items: end;
   margin-top: 70px;
 }
+@media (max-width: 1023px){
+  .section__title{
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+  }
+}
 .outro__title{
   color: #333;
   font-size: 30px;
