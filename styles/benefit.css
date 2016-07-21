@@ -49,8 +49,3 @@
   content: '>';
   margin-left: 15px;
 }
-@media (max-width: 1023px){
-  .benefit__preview{
-    transform: translate(5%,-5%)
-  }
-}

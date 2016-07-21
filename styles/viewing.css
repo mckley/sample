@@ -43,9 +43,3 @@
   color: #787c7d;
   line-height: 30px;
 }
-
-@media (max-width: 1023px){
-  .viewing__preview{
-    transform: translate(6.5%,0)
-  }
-}
