@@ -1,16 +1,18 @@
-.outro__hats{
+.outro__hat{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
-.outro__hat-icon{
-  padding: 0 60px;
+@media (max-width: 639px){
+  .outro__hat{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
-.section__title{
-  display: flex;
-  justify-content:space-around;
-  align-items: end;
-  margin-top: 70px;
+@media (max-width: 639px){
+  .outro__hat-icon:not(:first-child){
+    margin-top: 20px;
+  }
 }
 @media (max-width: 1023px){
   .section__title{
