@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1023px){
+  .outro__hat-icon{
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 639px){
   .outro__hat{
@@ -12,6 +18,7 @@
 @media (max-width: 639px){
   .outro__hat-icon:not(:first-child){
     margin-top: 20px;
+    
   }
 }
 @media (max-width: 1023px){

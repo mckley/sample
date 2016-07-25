@@ -39,10 +39,6 @@
 @media (max-width: 1023px){
   .footer__menu{
     margin-top: 30px;
-  }
-}
-@media (max-width: 639px){
-  .footer__menu{
     flex-direction: column;
   }
 }
@@ -62,7 +58,13 @@
 @media (max-width: 1023px){
   .footer__col{
     width: 100%;
-    margin-top: 30px; 
+    margin-top: 30px;
+  }
+}
+@media (max-width: 639px){
+  .footer__col{
+    width: 100%;
+    margin-top: 30px;
   }
 }
 .footer__title{
@@ -86,6 +88,7 @@
   .footer__link{
     font-size: 22px;
     margin-top: 10px;
+    width: 220px;
   }
 }
 .footer__link:hover{
