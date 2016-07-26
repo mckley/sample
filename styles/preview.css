@@ -21,11 +21,12 @@
 @media (max-width: 1023px){
   .preview__rectangle{
     margin-bottom: 40px;
+    padding: 20px;
   }
 }
 .preview__text-icon{
   position: absolute;
-  top: -1px;
+  top: -2px;
   right: 100%;
   width: 20px;
   height: 20px;
