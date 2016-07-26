@@ -11,15 +11,23 @@
 @media (max-width: 1023px){
   .benefit__info{
     margin-bottom: 40px;
-    margin-right: 0;
-    margin-left: 0;
   }
 }
 .benefit__info:first-child{
-  margin-right: 0;
+  margin-right: 100px;
+}
+@media (max-width: 1023px){
+  .benefit__info:first-child{
+    margin-right: 0; 
+  }
 }
 .benefit__info:last-child{
   margin-left: 100px;
+}
+@media (max-width: 1023px){
+  .benefit__info:last-child{
+    margin-left: 0;
+  }
 }
 .benefit__icon{
   margin-bottom: 50px;
