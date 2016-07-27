@@ -33,16 +33,12 @@
 .container__icon{
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 24px;
   height: 24px;
-  background-color: #86cb2d;
   border-radius: 5px;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
   color: white;
-  font-size: 16px;
   font-weight: 900;
-  line-height: 30px;
   margin-bottom: 20px;
 }
 .container__icon--one{
@@ -61,23 +57,15 @@
 }
 .container__text-one{
   width: 225px;
-  height: 105px;
   color: #777b7c;
-  font-size: 16px;
   font-weight: 500;
   line-height: 22px;
 }
 .container__text-two{
   width: 230px;
-  height: 105px;
   color: #777b7c;
-  font-size: 16px;
   font-weight: 500;
   line-height: 22px;
-}
-.container__preview{
-  width: 283px;
-  height: 394px;
 }
 @media (max-width: 639px){
   .container__preview{
