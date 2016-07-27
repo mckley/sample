@@ -12,14 +12,17 @@
   }
 }
 .open__title{
-  color: #323e41;
-  font-size: 18px;
-  font-weight: 500;
   margin-bottom: 15px;
 }
 @media (max-width: 1023px){
   .open__title{
+    color: #323e41;
     font-size: 17px;
+  }
+}
+@media (max-width: 639px){
+  .open__title{
+    font-size: 15px;
   }
 }
 .open__text{
@@ -28,7 +31,6 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
-  margin-right: 50px;
 }
 .open__button{
   display: flex;
@@ -46,7 +48,6 @@
 .open__button-icon{
   width: 15px;
   height: 20px;
-  background-color: #cbd9d9;
   margin: auto;
 }
 .open__button-text{

@@ -1,6 +1,5 @@
 .language{ 
   display: flex;
-  align-items: flex-start;
 }
 @media (max-width: 1023px){
   .language{
@@ -23,7 +22,6 @@
   color: #323e41;
   font-size: 30px;
   font-weight: 300;
-  width: 550px;
 }
 @media (max-width: 1023px){
   .language__title{
@@ -44,15 +42,13 @@
 }
 .language__preview{
   margin-top: 80px;
+  width: 280px;
+  height: 400px;
 }
-.section__footer{
-  margin-top: 65px;
-  padding-top: 60px;
-  border-top: 1px solid rgba(0, 100, 100, 0.1);
-  display: flex;
-}
-@media (max-width: 1023px){
+@media (max-width: 639px){
   .language__preview{
-    transform: translate(6.5%,0)
+    max-width: 280px;
+    width: 100%;
+    height: auto;
   }
 }

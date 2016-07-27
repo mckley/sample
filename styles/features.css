@@ -27,15 +27,10 @@
 }
 .features__item{
   margin-top: 20px;
-  color: #777b7c;
-  line-height: 22px;
-  font-size: 16px;
-  font-weight: 500;
 }
 .feature__item--subtext{
   display: inline-block;
   margin-top: 20px;
-  color: #00a2ed;
   line-height: 32px;
   transition: 0.4s;
 }
@@ -47,10 +42,7 @@
   align-items: baseline;
   justify-content: space-between;
   text-align: center;
-  margin-top: 20px;
   color: #777b7c;
-  line-height: 22px;
-  font-size: 16px;
   font-weight: 500;
   margin-top: 70px;
 }
@@ -60,7 +52,7 @@
   }
 }
 .features--centred-col{
-  width: 30%
+  width: 30%;
 }
 @media (max-width: 1023px){
   .features--centred-col{

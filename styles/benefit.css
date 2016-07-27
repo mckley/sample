@@ -44,11 +44,14 @@
 }
 .benefit__link{
   display: inline-block;
-  color: #00a2ed;
   font-weight: 800;
-  line-height: 30px;
   margin-top: 30px;
   transition: 0.4s;
+}
+@media (max-width: 639px){
+  .benefit__link{
+    font-size: 17px;
+  }
 }
 .benefit__link:hover{
   opacity: 0.8;
@@ -56,4 +59,8 @@
 .benefit__link::after{
   content: '>';
   margin-left: 15px;
+}
+.benefit__preview{
+  width: 280px;
+  height: 400px;
 }

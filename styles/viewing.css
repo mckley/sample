@@ -43,3 +43,14 @@
   color: #787c7d;
   line-height: 30px;
 }
+.viewing__preview{
+  width: 280px;
+  height: 400px;
+}
+@media (max-width: 1023px){
+  .preview__preview{
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+  }
+}

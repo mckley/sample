@@ -15,7 +15,7 @@
   height: 380px;
   border: 2px solid #046df6;
   margin-right: 40px;
-  padding: 21.5px;
+  padding: 20px;
   line-height: 50px;
 }
 @media (max-width: 1023px){
@@ -33,5 +33,4 @@
   padding: 3px;
   background-color: #046df6;
   display: flex;
-  justify-content: center;
 }
