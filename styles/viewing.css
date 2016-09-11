@@ -6,6 +6,7 @@
 @media (max-width: 1023px){
   .viewing{
     flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 1023px){
@@ -33,19 +34,44 @@
 .viewing__icon{
   margin-bottom: 50px;
 }
+@media (max-width: 639px){
+  .viewing__icon{
+    margin-bottom: 0;
+  }
+}
 .viewing__title{
   margin-bottom: 30px;
   color: #323e41;
   font-size: 30px;
   font-weight: 300;
 }
+@media (max-width: 639px){
+  .viewing__title{
+    font-size: 22px; 
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 1023px){
+  .vieving__wrap{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 639px){
+  .vieving__wrap{
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
 .viewing__text{
   color: #787c7d;
   line-height: 30px;
 }
-.viewing__preview{
-  width: 280px;
-  height: 400px;
+@media (max-width: 1023px){
+  .viewing__text{
+    font-size: 14px; 
+  }
 }
 @media (max-width: 1023px){
   .preview__preview{

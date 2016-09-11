@@ -5,6 +5,13 @@
   border-radius: 15px;
   display: flex;
 }
+@media (max-width: 1023px){
+  .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+  } 
+}
 .icon--blue{
   background-image: linear-gradient(to top, #20afea 0%, #36ccf9 100%);
 }
@@ -22,4 +29,10 @@
 }
 .icon__image{
   margin: auto;
+}
+@media (max-width: 1023px){
+  .icon__image{
+    width: 20px;
+    height: 20px;
+  } 
 }

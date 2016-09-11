@@ -9,7 +9,12 @@
   .discount{
     top: 0;
     right: 0;
-    transform: translate(0,-15%);
+    transform: translate(-140%,-110%);
+  }
+}
+@media (max-width: 639px){
+  .discount{
+    transform: translate(-70%,-110%);
   }
 }
 .discount:hover{
