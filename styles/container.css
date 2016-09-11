@@ -61,11 +61,21 @@
   font-weight: 500;
   line-height: 22px;
 }
+@media (max-width: 1023px){
+  .container__text-one{
+    font-size: 14px;
+  }
+}
 .container__text-two{
   width: 230px;
   color: #777b7c;
   font-weight: 500;
   line-height: 22px;
+}
+@media (max-width: 1023px){
+  .container__text-two{
+    font-size: 14px;
+  }
 }
 @media (max-width: 639px){
   .container__preview{

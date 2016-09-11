@@ -7,8 +7,16 @@
   margin-bottom: 50px;
 }
 @media (max-width: 1023px){
-  .manually__icon{
-    justify-content: flex-start;
+  .manually__wrap{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 639px){
+  .manually__wrap{
+    align-items: center;
   }
 }
 .manually__title{
@@ -21,7 +29,13 @@
 }
 @media (max-width: 1023px){
   .manually__title{
-    margin-bottom: 120px;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 639px){
+  .manually__title{
+    margin-bottom: 80px;
   }
 }
 .manually__text{
@@ -35,6 +49,7 @@
 }
 @media (max-width: 1023px){
   .manually__text{
+    font-size: 14px;
     width: 100%;
     margin: 0;
   }

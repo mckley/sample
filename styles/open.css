@@ -32,6 +32,11 @@
   font-weight: 500;
   line-height: 22px;
 }
+@media (max-width: 1023px){
+  .open__text{
+    font-size: 14px;
+  }
+}
 .open__button{
   display: flex;
   justify-content: space-between;
@@ -41,6 +46,16 @@
   border-radius: 5px;
   margin-top: 45px;
   transition: 0.4s;
+}
+@media (max-width: 1023px){
+  .open__button{
+    transform: translate(40%,30%)
+  }
+}
+@media (max-width: 639px){
+  .open__button{
+    transform: translate(4%,30%)
+  }
 }
 .open__button:hover{
   opacity: 0.8;
