@@ -1,5 +1,7 @@
-.manually{
-  position: relative;
+@media (min-width: 1023px){
+  .manually{
+    position: relative;
+  }
 }
 .manually__icon{
   display: flex;
