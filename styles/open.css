@@ -49,12 +49,8 @@
 }
 @media (max-width: 1023px){
   .open__button{
-    transform: translate(40%,30%)
-  }
-}
-@media (max-width: 639px){
-  .open__button{
-    transform: translate(4%,30%)
+    margin: 0 auto;
+    transform: translate(0,50%);
   }
 }
 .open__button:hover{
